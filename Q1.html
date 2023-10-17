@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Data Form</title>
+</head>
+<body>
+  <h1>Personal Data Form</h1>
+  
+  <form>
+    <label for="title">Title:</label> <br>
+    <input type="radio" id="mr" name="title" value="Mr." required>
+    <label for="mr">Mr.</label>
+    <input type="radio" id="mrs" name="title" value="Mrs.">
+    <label for="mrs">Mrs.</label>
+    <input type="radio" id="ms" name="title" value="Ms.">
+    <label for="ms">Ms.</label> <br><br>
+    
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+    
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+    
+    <label for="mail1">Mail Address 1:</label>
+    <input type="text" id="mail1" name="mail1" required><br><br>
+    
+    <label for="mail2">Mail Address 2:</label>
+    <input type="text" id="mail2" name="mail2"><br><br>
+    
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required><br><br>
+    
+    <label for="state">State:</label>
+    <select id="state" name="state" required>
+      <option value="">Select a state</option>
+      <option value="AL">Alabama</option>
+      <option value="AK">Alaska</option>
+      <option value="AZ">Arizona</option>
+      <!-- Add more states as needed -->
+    </select><br><br>
+    
+    <label for="zip">Zip:</label>
+    <input type="text" id="zip" name="zip" required><br><br>
+    
+    <label for="photo">Upload Photo:</label>
+    <input type="file" id="photo" name="photo"><br><br>
+    
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="mobile">Mobile:</label>
+    <input type="tel" id="mobile" name="mobile" required><br><br>
+    
+    <label for="language">Language Known:</label> <br>
+    <input type="checkbox" id="english" name="language" value="English">
+    <label for="english">English</label>
+    <input type="checkbox" id="spanish" name="language" value="Spanish">
+    <label for="spanish">Spanish</label>
+    <input type="checkbox" id="french" name="language" value="French">
+    <label for="french">French</label> <br><br>
+    
+    <label for="additionalInfo">Additional Information:</label>
+    <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+  
+</body>
+</html>
